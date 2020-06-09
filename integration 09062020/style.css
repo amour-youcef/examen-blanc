@@ -1,0 +1,263 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* debut css */
+body{
+    background: #e5e5e5;
+}
+.container{
+    margin-left: 100px;
+    margin-top: 100px;
+    display: flex;
+    background: #ffffff;
+   
+}
+
+.cart1{
+    padding-top: 30px;
+    width: 30%;
+    /* background: gray; */
+    margin-left: 30px;
+
+    height: 60vh;
+
+-webkit-box-shadow: -1px 6px 5px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 6px 5px 1px rgba(0,0,0,0.75);
+box-shadow: -1px 6px 5px 1px rgba(0,0,0,0.75);
+}
+
+.cart1 h2{
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 10px; 
+}
+
+
+.tem{
+    margin-top: 30px;
+}
+.tem span{
+    
+    padding-top: 20px;
+    /* font-weight: bold; */
+    font-size: 84px;
+    padding-bottom: 20px;
+}
+
+.drop img{
+    margin-top: 30px;
+}
+.drop {
+    display: flex;
+}
+.wind{
+    margin-left: 40px;
+}
+/* hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+} */
+
+.heur{
+    margin-top:  20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.heur span{
+    margin-left: 40px;
+    flex-wrap: wrap;
+}
+
+.heur hr{
+    margin-top: 40px;
+    /* margin: 100px auto; */
+    width: 70%;
+    height: 2px;
+    background-color: #cdc7ec;
+    border: none; /*on supprime le style par défaut*/
+  }
+
+  .exp {
+      margin-top: 30px;
+
+  }
+
+  .exp span{
+      color: aqua;
+  }
+/* carte 02 */
+.cart2{
+    width: 30%;
+    /* background: gray; */
+    margin-left: 30px;
+
+    height: 90vh;
+
+-webkit-box-shadow: -1px 6px 5px 1px rgba(124, 122, 122, 0.75);
+-moz-box-shadow: -1px 6px 5px 1px rgba(124, 122, 122, 0.75);
+box-shadow: -1px 6px 5px 1px rgba(0,0,0,0.75);
+}
+
+.pd20{
+    padding-left: 20px;
+}
+
+.cart2 .food img{
+    width: 100%;
+}
+
+.titre h1{
+    padding-left: 20px;
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 30px;
+}
+.food img{
+   
+}
+
+.star{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.text{
+    margin-left: 20px;
+}
+.text h3{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.text span{
+    font-size: 20px;
+}
+.text hr{
+  margin-top: 40px;
+  /* margin: 100px auto; */
+  width: 70%;
+  height: 2px;
+  background-color: #cdc7ec;
+  border: none; /*on supprime le style par défaut*/
+}
+
+.toi{
+    margin-left: 20px;
+}
+
+.toi h2{
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+.myButton {
+  background-color:#ced0d3;
+  border-radius:28px;
+  border:1px solid #c9cdd8;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:15px;
+  padding:16px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+  background-color:#476e9e;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+/* carte 03 */
+.cart3{
+    width: 30%;
+    /* background: gray; */
+    margin-left: 30px;
+
+    height: 80vh;
+
+-webkit-box-shadow: -1px 6px 5px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 6px 5px 1px rgba(0,0,0,0.75);
+box-shadow: -1px 6px 5px 1px rgba(0,0,0,0.75);
+}
+
+.map iframe{
+    width: 100%;
+}
+
+.p {
+    color: #476e9e;
+    padding-top: 30px;
+    float: left;
+    font-size: 20px;
+}
+
+.p p{
+    font-size: 16px;
+}
+#in span {
+    color: #476e9e;
+    padding-top: 30px;
+    float: right;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+#trait_dessus
+{
+border-top: 1px solid #000;
+width : 700px;
+}
